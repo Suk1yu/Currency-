@@ -3,7 +3,7 @@ from datetime import datetime
 import requests
 import os
 
-app = Flask(__name__)
+myapp = Flask(__name__)
 
 # Data mata uang dengan kode, nama, dan kode bendera
 currencies = [
